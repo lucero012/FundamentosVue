@@ -1,6 +1,8 @@
 <script setup>
-import Menu from './Menu.vue';
+//importacion del primer componente
 import Restaurante from './Restaurante.vue';
+//importacion del segundo componente
+import Menu from './Menu.vue';
 </script>
 
 <template>
