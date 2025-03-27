@@ -28,16 +28,62 @@
       </div>
     </div>
 
-    <!-- Botón regresar -->
-    <div class="mt-4 text-start">
-      <a href="#" class="btn btn-outline-secondary">⬅️ REGRESAR</a>
+  
+<!-- Título -->
+<h1 class="text-center mt-4">EL PATIO</h1>
+    <div class="text-center">
+      <span class="badge bg-warning text-dark">✨</span>
+      <span class="badge bg-warning text-dark">✨</span>
     </div>
-  </div>
-</template>
 
-<script setup>
-// No hay lógica compleja, solo template
-</script>
+    <!-- Imagen con descripción -->
+    <div class="card mt-4">
+      <img src="/patio.jpg" class="img-fluid" alt="El patio" />
+      <div class="card-body text-center">
+        <h2 class="card-title">VISITA</h2>
+        <p class="card-text">📍 Isabel la Católica N.4, San Sebastian, Tlaxiaco, Oaxaca</p>
+        <a href="#" class="btn btn-primary">VISITAR</a>
+      </div>
+    </div>
+
+ 
+    <!-- Título -->
+    <h1 class="text-center mt-4">LA MESA DEL RINCÓN</h1>
+    <div class="text-center">
+      <span class="badge bg-warning text-dark">✨</span>
+      <span class="badge bg-warning text-dark">✨</span>
+    </div>
+
+    <!-- Imagen con descripción -->
+    <div class="card mt-4">
+      <img src="/mesa.png" class="img-fluid" alt="Mesa del Rincón" />
+      <div class="card-body text-center">
+        <h2 class="card-title">VISITA</h2>
+        <p class="card-text">📍 Paseo de la Reforma N.16, Col. Benito Juarez, Tlaxiaco, Oaxaca</p>
+        <a href="#" class="btn btn-primary">VISITAR</a>
+      </div>
+    </div>
+
+ 
+    <!-- Título -->
+    <h1 class="text-center mt-4">TLAYUDAS EL NEGRO</h1>
+    <div class="text-center">
+      <span class="badge bg-warning text-dark">✨</span>
+      <span class="badge bg-warning text-dark">✨</span>
+    </div>
+
+    <!-- Imagen con descripción -->
+    <div class="card mt-4">
+      <img src="/tlayudas.png" class="img-fluid" alt="Tlayudas el Negro" />
+      <div class="card-body text-center">
+        <h2 class="card-title">VISITA</h2>
+        <p class="card-text">📍 Hipodromo N.8, Centro, Tlaxiaco, Oaxaca</p>
+        <a href="#" class="btn btn-primary">VISITAR</a>
+      </div>
+    </div>
+
+     </div>
+</template>
 
 <style scoped>
 .logo {
