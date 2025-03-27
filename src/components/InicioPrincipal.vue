@@ -1,6 +1,8 @@
 <script setup>
-import Menu from './Menu.vue';
+//importacion del primer componente
 import Restaurante from './Restaurante.vue';
+//importacion del segundo componente
+import Menu from './Menu.vue';
 </script>
 
 <template>
@@ -37,7 +39,7 @@ import Restaurante from './Restaurante.vue';
         <h1 class="text-center">BIENVENIDOS </h1><br>
         <p class="text-center">🍽️ "Descubre, saborea y disfruta: los mejores lugares para comer a tu alcance." 🌮🍕🥗</p>
         <div class="d-flex justify-content-center align-items-center" style="min-height: 0vh;">
-          <img src="/logo.png" alt="Vue logo" class="img-fluid" style="max-width: 300px;">
+          <img src="/logo.png" alt="Vue logo" class="img-fluid" style="max-width: 800px;">
         </div>
       </div>
 
